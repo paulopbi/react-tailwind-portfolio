@@ -31,7 +31,7 @@ function AnimatedBorderButton() {
       </svg>
       <span className="relative z-10 flex items-center justify-center gap-2">
         <Download className="size-5" />
-        Download CV
+        Baixar Currículo
       </span>
     </button>
   )
