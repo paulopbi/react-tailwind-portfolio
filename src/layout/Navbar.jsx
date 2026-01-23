@@ -1,9 +1,20 @@
 import Button from '@/components/Button'
 import { Menu, X } from 'lucide-react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50)
+    }
+    window.addEventListener('scroll', handleScroll)
+
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   const navLinks = [
     { href: '#sobre', label: 'Sobre' },
     { href: '#projetos', label: 'Projetos' },
@@ -11,7 +22,9 @@ function Navbar() {
     { href: '#testmonials', label: 'Testimonials' },
   ]
   return (
-    <header className="fixed top-0 left-0 right-0 bg-transparent py-4">
+    <header
+      className={`${isScrolled ? 'glass-strong py-3' : 'bg-transparent'} fixed top-0 left-0 right-0 py-4 z-50 transition-all duration-500`}
+    >
       <nav className="container mx-auto px-6 flex items-center justify-between">
         <a
           href="#"
@@ -37,7 +50,7 @@ function Navbar() {
 
         {/* CTA BTN */}
         <div className="hidden md:block">
-          <Button size="sm">Contact Me</Button>
+          <Button size="sm">Entre em Contato</Button>
         </div>
 
         {/* Mobile */}
@@ -63,7 +76,7 @@ function Navbar() {
               </a>
             ))}
 
-            <Button>Contact Me</Button>
+            <Button>Entre em Contato</Button>
           </div>
         </div>
       )}
