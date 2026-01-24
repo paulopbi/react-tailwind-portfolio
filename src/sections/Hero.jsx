@@ -4,6 +4,7 @@ import { skills } from '@/constants/skills'
 import {
   ArrowRight,
   ChevronDown,
+  Download,
   Github,
   Linkedin,
   Twitter,
@@ -89,7 +90,10 @@ function Hero() {
               <Button size="lg">
                 Contato <ArrowRight className="w-5 h-5" />
               </Button>
-              <AnimatedBorderButton />
+              <AnimatedBorderButton>
+                <Download className="size-5" />
+                Baixar Currículo
+              </AnimatedBorderButton>
             </div>
 
             {/* social links */}

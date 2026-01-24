@@ -1,6 +1,4 @@
-import { Download } from 'lucide-react'
-
-function AnimatedBorderButton() {
+function AnimatedBorderButton({ children }) {
   return (
     <button
       className="relative bg-transparent border border-border 
@@ -30,8 +28,7 @@ function AnimatedBorderButton() {
         />
       </svg>
       <span className="relative z-10 flex items-center justify-center gap-2">
-        <Download className="size-5" />
-        Baixar Currículo
+        {children}
       </span>
     </button>
   )
