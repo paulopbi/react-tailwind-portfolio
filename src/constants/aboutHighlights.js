@@ -1,26 +1,28 @@
-import { Code2, Figma, Lightbulb, Smartphone } from 'lucide-react'
+import { Brain, Clock, Handshake, Megaphone } from 'lucide-react'
 
 export const aboutHighlights = [
   {
-    icon: Code2,
-    title: 'Criação de Sites',
-    description: 'Crio sites interativos e bonitos',
-  },
-  {
-    icon: Figma,
-    title: 'Criação de UI Design',
+    icon: Megaphone,
+    title: 'Comunicação Clara',
     description:
-      'Optimizing for speed and delivering lightning-fast user experiences.',
+      'Explicar conceitos técnicos de forma acessível para diferentes públicos, facilitando a colaboração entre times.',
   },
   {
-    icon: Smartphone,
-    title: 'Responsívidade',
-    description: 'Sites responsívos adaptados para vários tipos de telas.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Innovation',
+    icon: Brain,
+    title: 'Pensamento Analítico',
     description:
-      'Staying ahead with the latest technologies and best practices.',
+      'Quebrar problemas complexos em partes menores, identificando padrões e criando soluções estruturadas.',
+  },
+  {
+    icon: Handshake,
+    title: 'Adaptabilidade',
+    description:
+      'Ajustar-se rapidamente a novas tecnologias, metodologias e contextos de projeto com mentalidade de crescimento.',
+  },
+  {
+    icon: Clock,
+    title: 'Gestão de Tempo',
+    description:
+      'Priorizar tarefas eficientemente, equilibrando prazos com qualidade do código e atenção aos detalhes.',
   },
 ]

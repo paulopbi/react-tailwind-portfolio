@@ -2,7 +2,7 @@ import { aboutHighlights } from '../constants/aboutHighlights'
 
 function About() {
   return (
-    <section className="py-32 relative overflow-hidden" id="sobre">
+    <section className="py-32 relative overflow-hidden" id="about">
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* left column */}
@@ -14,34 +14,40 @@ function About() {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Construindo interfaces,
+              Mais do que código
               <span className="font-serif italic font-normal text-white">
                 {' '}
-                um componente por vez.
+                minha jornada.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                perspiciatis quo architecto error odio, voluptatem, quibusdam
-                aliquam ducimus doloribus aperiam nesciunt itaque praesentium
-                sequi reiciendis vitae officiis explicabo rerum asperiores.
+                Minha paixão por desenvolvimento começou de forma inusitada:
+                customizando temas de blogs aos 15 anos. O que era apenas um
+                hobby para personalizar meu espaço online rapidamente se
+                transformou em uma fascinação por entender como as coisas
+                funcionam por trás das interfaces. Foi essa curiosidade que me
+                guiou até a graduação em Sistemas de Informação e,
+                posteriormente, ao universo do desenvolvimento front-end.
               </p>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptate, laudantium! Mollitia sint quis autem dicta quod ipsum
-                quibusdam accusantium, tenetur nemo aliquid laborum provident
-                eligendi iste! Voluptatum voluptates id amet.
+                Nos últimos anos, tenho me dedicado especialmente ao ecossistema
+                React. O que mais me encanta nessa biblioteca é a filosofia de
+                componentes reutilizáveis - uma metáfora perfeita para como
+                enxergo a solução de problemas: dividindo desafios complexos em
+                partes gerenciáveis que, quando bem orquestradas, criam algo
+                maior e mais funcional.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Temporibus cupiditate, itaque inventore possimus quas voluptas
-                architecto recusandae, odit alias eius, ex culpa. Libero magni
-                maxime debitis perspiciatis natus sapiente quisquam.
+                Fora do ambiente de desenvolvimento, sou um entusiasta da
+                fotografia de arquitetura urbana - hobby que,
+                surpreendentemente, aprimora minha percepção de layout,
+                proporção e harmonia visual, habilidades que traduzo diretamente
+                para a construção de interfaces.
               </p>
             </div>
           </div>
