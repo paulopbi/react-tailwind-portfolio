@@ -4,19 +4,19 @@ export const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'pedro@example.com',
-    href: 'mailto:pedro@example.com',
+    value: 'paulovictordev16@gmail.com',
+    href: 'mailto:paulovictordev16@gmail.com',
   },
   {
     icon: Phone,
-    label: 'Phone',
-    value: '+1 (555) 123-4567',
+    label: 'Telefone',
+    value: '+55 (21) 12345-6789',
     href: 'tel:+15551234567',
   },
   {
     icon: MapPin,
-    label: 'Location',
-    value: 'San Francisco, CA',
+    label: 'Localização',
+    value: 'Rio de Janeiro, Brasil.',
     href: '#',
   },
 ]
