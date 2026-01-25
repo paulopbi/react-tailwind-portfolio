@@ -1,29 +1,4 @@
-import { Code2, Figma, Lightbulb, Smartphone } from 'lucide-react'
-
-const highlights = [
-  {
-    icon: Code2,
-    title: 'Criação de Sites',
-    description: 'Crio sites interativos e bonitos',
-  },
-  {
-    icon: Figma,
-    title: 'Criação de UI Design',
-    description:
-      'Optimizing for speed and delivering lightning-fast user experiences.',
-  },
-  {
-    icon: Smartphone,
-    title: 'Responsívidade',
-    description: 'Sites responsívos adaptados para vários tipos de telas.',
-  },
-  {
-    icon: Lightbulb,
-    title: 'Innovation',
-    description:
-      'Staying ahead with the latest technologies and best practices.',
-  },
-]
+import { aboutHighlights } from '../constants/aboutHighlights'
 
 function About() {
   return (
@@ -73,7 +48,7 @@ function About() {
 
           {/* right column */}
           <div className="grid sm:grid-cols-2 gap-6">
-            {highlights.map((item, index) => (
+            {aboutHighlights.map((item, index) => (
               <div
                 key={index}
                 className="glass p-6 rounded-2xl animate-fade-in"
