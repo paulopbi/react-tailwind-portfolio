@@ -7,7 +7,6 @@ import {
   Download,
   Github,
   Linkedin,
-  Twitter,
 } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
@@ -62,27 +61,26 @@ function Hero() {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Programador Frontend
+                Programador Fullstack
               </span>
             </div>
 
             {/* headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Transformando ideias em{' '}
-                <span className="text-primary glow-text">interfaces</span>
+                Criador de{' '}
+                <span className="text-primary glow-text">Experiências</span>
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  incríveis.
+                  Digitais.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Olá mundo! Me chamo Paulo Victor Silva Rosa, sou um
-                desenvolvedor frontend. Minha jornada começou 'quebrando a
-                cabeça com CSS' e hoje me especializo em Next.js, React e
-                TypeScript para criar aplicações que não só impressionam, mas
-                também entregam resultados. Vamos construir algo incrível
-                juntos? 👷🏾‍♂️
+                Me chamo Paulo sou um desenvolvedor especializado em React com
+                foco em performance e UX. Transformo conceitos em código limpo e
+                interfaces responsivas que encantam usuários. Em constante
+                evolução, sempre em busca dos próximos desafios que unam
+                tecnologia e criatividade.
               </p>
             </div>
             {/* CTA */}
@@ -102,9 +100,11 @@ function Hero() {
                 Redes Sociais:{' '}
               </span>
               {[
-                { icon: Github, href: '#' },
-                { icon: Linkedin, href: '#' },
-                { icon: Twitter, href: '#' },
+                { icon: Github, href: 'https://github.com/paulopbi' },
+                {
+                  icon: Linkedin,
+                  href: 'https://www.linkedin.com/in/paulopbi/',
+                },
               ].map((social, index) => (
                 <a
                   key={index}
@@ -123,9 +123,9 @@ function Hero() {
               <div className="absolute inset-0 rounded-3xl bg-linear-to-br from-primary/10 via-transparent to-primary/10 blur-2xl animate-pulse" />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img
-                  src="/profile-photo.jpg"
+                  src="/paulo.jpg"
                   alt="Foto de perfil"
-                  className="w-full aspect-4/5 rounded-2xl"
+                  className="w-full aspect-4/5 rounded-2xl object-cover"
                 />
 
                 {/* floating badge */}
@@ -139,9 +139,9 @@ function Hero() {
                 </div>
                 {/* stats badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-400">
-                  <div className="text-2xl font-bold text-primary">1+</div>
+                  <div className="text-2xl font-bold text-primary">2+</div>
                   <div className="text-xs text-muted-foreground">
-                    Anos Experiência
+                    anos de experiência
                   </div>
                 </div>
               </div>
