@@ -1,4 +1,4 @@
-import { footerLinks, socialLinks } from '../constants/footer'
+import { footerLinks, footerSocialLinks } from '@/constants/footer'
 
 function Footer() {
   const currentYear = new Date().getFullYear()
@@ -10,10 +10,10 @@ function Footer() {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              PV<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} Paulo. todos os direitos reservados.
             </p>
           </div>
 
@@ -32,11 +32,11 @@ function Footer() {
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
-            {socialLinks.map((social) => (
+            {footerSocialLinks.map((social) => (
               <a
                 key={social.label}
                 href={social.href}
-                aria-label={social.label}
+                target="_blank"
                 className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all"
               >
                 <social.icon className="w-5 h-5" />
