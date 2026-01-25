@@ -29,10 +29,10 @@ export const experiences = [
 
   {
     period: '2018 — 2019',
-    role: 'Freelance Developer',
-    company: 'Self-Employed',
+    role: 'Freelancer',
+    company: 'PJ',
     description:
-      'Delivered custom web solutions for small businesses and startups. Built 15+ websites and applications, handling everything from design to deployment.',
+      'Entreguei soluções web customizadas para pequenos negócios e startups, foram mais de 15 websites e aplicações construidas, do design até o desenvolvimento.',
     technologies: ['JavaScript', 'PHP', 'WordPress', 'MySQL'],
     current: false,
   },
