@@ -4,27 +4,28 @@ import { projects } from '../constants/projects'
 
 function Projects() {
   return (
-    <section id="projetos" className="py-32 relative overflow-hidden">
+    <section id="projects" className="py-32 relative overflow-hidden">
       {/* bg glows */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mx-auto max-w-3xl mb-16">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
-            Featured Work
+            Trabalhos em Destaque
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Projects that
+            Do conceito ao código
             <span className="font-serif italic font-normal text-white">
               {' '}
-              make inpact.
+              meus projetos.
             </span>
           </h2>
-          <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
-            sint voluptatem temporibus architecto unde est perferendis corrupti
-            rem doloremque praesentium reprehenderit illo aspernatur minus
-            aliquam, molestiae, dolore incidunt inventore ducimus.
+          <p className="text-muted-foreground animate-fade-in animation-delay-200 text-pretty">
+            Cada projeto representa uma jornada de aprendizado, uma solução para
+            um problema real ou a exploração de novas tecnologias. Aqui você
+            encontra desde aplicações completas até componentes específicos,
+            todos desenvolvidos com foco em código limpo, experiência do usuário
+            e boas práticas de desenvolvimento.
           </p>
         </div>
 
