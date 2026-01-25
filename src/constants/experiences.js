@@ -1,4 +1,4 @@
-export const experiencesConstants = [
+export const experiences = [
   {
     period: '2022 — 2024',
     role: 'Analise e Desenvolvimento de Sistemas',

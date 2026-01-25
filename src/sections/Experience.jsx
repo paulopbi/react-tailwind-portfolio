@@ -1,4 +1,4 @@
-import { experiencesConstants } from '../constants/experiencesConstants'
+import { experiences } from '../constants/experiences'
 
 function Experience() {
   return (
@@ -44,7 +44,7 @@ function Experience() {
 
           {/* Experience Items */}
           <div className="space-y-12">
-            {experiencesConstants.map((exp, idx) => (
+            {experiences.map((exp, idx) => (
               <div
                 key={idx}
                 className="relative grid md:grid-cols-2 gap-8 animate-fade-in"
