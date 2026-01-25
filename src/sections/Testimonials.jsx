@@ -26,16 +26,16 @@ function Testimonials() {
             className="text-secondary-foreground text-sm
            font-medium tracking-wider uppercase animate-fade-in"
           >
-            O que as pessoas dizem
+            Reconhecimento
           </span>
           <h2
             className="text-4xl md:text-5xl font-bold
            mt-4 mb-6 animate-fade-in animation-delay-100
             text-secondary-foreground"
           >
-            Algumas palavras de{' '}
+            O que dizem do{' '}
             <span className="font-serif italic font-normal text-white">
-              pessoas incríveis
+              meu trabalho.
             </span>
           </h2>
 
@@ -43,8 +43,9 @@ function Testimonials() {
             className="text-muted-foreground
            animate-fade-in animation-delay-200"
           >
-            A timeline of my professional growth, from curious beginner to
-            senior engineer leading teams and building products at scale.
+            Estes depoimentos representam mais do que feedback, são reflexos de
+            parcerias, projetos desafiadores e a entrega consistente de valor
+            através do código e da colaboração.
           </p>
         </div>
 
