@@ -1,7 +1,7 @@
 import Button from '@/components/Button'
 import { Menu, X } from 'lucide-react'
 import { useEffect, useState } from 'react'
-import { navbarLinks } from '../constants/navbarLinks'
+import { socialLinks } from '../constants/socialLinks'
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -32,7 +32,7 @@ function Navbar() {
         {/* Desktop */}
         <div className="hidden md:flex items-center gap-1">
           <div className="glass rounded-full px-2 py-1 items-center gap-1">
-            {navbarLinks.map((link) => (
+            {socialLinks.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
@@ -62,7 +62,7 @@ function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden glass-strong animate-fade-in">
           <div className="container mx-auto px-6 py-6 flex flex-col gap-4">
-            {navbarLinks.map((link) => (
+            {socialLinks.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
