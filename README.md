@@ -1,16 +1,54 @@
-# React + Vite
+# Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto de portfólio pessoal para um programador, o mesmo possúi diversos efeitos visuais e animações, mantendo um padrão visual moderno e agradável, o projeto foi desenvolvido utilizando as melhores práticas de desenvolvimento web.
 
-Currently, two official plugins are available:
+## Demonstração
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+video aqui
 
-## React Compiler
+## Tecnologias
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **Vite**: Ferramenta de build para desenvolvimento web.
+- **Tailwind CSS**: Framework CSS para desenvolvimento rápido de interfaces.
+- **Javascript**: Linguagem de programação.
+- **ESLint**: Ferramenta de análise estática de código.
+- **Git**: Sistema de controle de versão.
+- **Lucide React**: Biblioteca de ícones.
+- **Bun**: Gerenciador de pacotes.
 
-## Expanding the ESLint configuration
+## Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Animações
+
+- Foi utilizado algumas animações do proprio tailwindcss e outras animações 100% customizadas.
+- Animação de marquee onde os textos se movem de um lado para o outro.
+- Animação de fade in e fade out em diversos elementos.
+- Animação de pulse.
+
+### Design
+
+- O design do portfólio foi desenvolvido utilizando as melhores práticas de design web.
+- O design do portfólio é responsivo e funciona em diferentes tamanhos de tela.
+- Padronização de cores, fontes e espaçamentos.
+
+### Navbar
+
+- A navbar é responsiva e funciona em diferentes tamanhos de tela.
+- Possui um efeito de adicionar background quando o usuário rola a página.
+
+### Hero
+
+- Possui uma animação de partículas que se movem de um lado para o outro de forma aleatória.
+
+### Experiência
+
+- Na sessão de experiência foi utilizado o componente para simular uma timeline.
+
+### Testemunhos
+
+- Em testimonials foi utilizado o componente de carrossel para exibir os depoimentos.
+
+### Contatos
+
+- Em contatos foi utilizado um formulário para qualquer usuário entrar em contato por email.
