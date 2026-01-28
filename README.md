@@ -1,6 +1,6 @@
 # Portfólio
 
-Este é um projeto de portfólio pessoal para um programador, o mesmo possúi diversos efeitos visuais e animações, mantendo um padrão visual moderno e agradável, o projeto foi desenvolvido utilizando as melhores práticas de desenvolvimento web.
+Este é um projeto de portfólio pessoal para um programador, o mesmo possui diversos efeitos visuais e animações, mantendo um padrão visual moderno e agradável, o projeto foi desenvolvido utilizando as melhores práticas de desenvolvimento web.
 
 ## Demonstração
 
