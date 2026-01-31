@@ -63,10 +63,12 @@ Este projeto foi construído com as seguintes tecnologias:
 
 O portfólio está dividido em seções estratégicas:
 
-- **Hero**: Apresentação impactante com animações de entrada
-- **Sobre**: Introdução profissional e habilidades
-- **Experiência**: Timeline com histórico de carreira
-- **Projetos**: Showcase de trabalhos realizados
+- **Hero**: Apresentação impactante com animações de entrada.
+- **Sobre**: Introdução profissional e habilidades.
+- **Projetos**: Showcase de trabalhos realizados.
+- **Experiência**: Timeline com histórico de carreira.
+- **Reconhecimento**: Sessão de depoimentos.
+- **Contato**: Formulário de contato.
 
 ## Como executar
 
