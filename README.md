@@ -1,56 +1,91 @@
-# Portfólio
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+</p>
 
-Este é um projeto de portfólio pessoal para um programador, o mesmo possui diversos efeitos visuais e animações, mantendo um padrão visual moderno e agradável, o projeto foi desenvolvido utilizando as melhores práticas de desenvolvimento web.
+# React Tailwind Portfolio
 
-## Demonstração
+**React Tailwind Portfolio** é um portfólio pessoal desenvolvido com React e Tailwind CSS, combinando efeitos visuais sofisticados com uma experiência de usuário excepcional.
 
-https://github.com/user-attachments/assets/4df51f44-9649-4471-9c6e-ac4aefbbe4a2
-
-> video de demonstração
+O projeto destaca-se pela qualidade das animações customizadas e pela apresentação estratégica de competências profissionais.
 
 ## Tecnologias
 
-- **React**: Biblioteca para construção de interfaces de usuário.
-- **Vite**: Ferramenta de build para desenvolvimento web.
-- **Tailwind CSS**: Framework CSS para desenvolvimento rápido de interfaces.
-- **Javascript**: Linguagem de programação.
-- **ESLint**: Ferramenta de análise estática de código.
-- **Git**: Sistema de controle de versão.
-- **Lucide React**: Biblioteca de ícones.
-- **Bun**: Gerenciador de pacotes.
+Este projeto foi construído com as seguintes tecnologias:
+
+- **[React](https://react.dev/)** - Biblioteca para construção de interfaces de usuário.
+- **[JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)** - Linguagem de programação.
+- **[Vite](https://vitejs.dev/)** - Build tool e dev server de última geração.
+- **[Tailwind CSS](https://tailwindcss.com/)** - Framework CSS utility-first.
+- **[Lucide React](https://lucide.dev/)** - Biblioteca de ícones moderna e consistente.
+- **[Prettier](https://prettier.io/)** - Formatador de código.
+- **[ESLint](https://eslint.org/)** - Linter de código.
+- **[Bun](https://bun.sh/)** - Runtime JavaScript de alta performance.
+- **[Git](https://git-scm.com/)** - Controle de versão.
+
+## Demonstração
+
+<a href="https://github.com/paulopbi/react-tailwind-portfolio" target="_blank" rel="noopener noreferrer">
+  <img src="./public/demo.png" alt="Demonstração" />
+</a>
+
+> Clique na imagem para abrir o repositório.
 
 ## Funcionalidades
 
-### Animações
+### Arquitetura & Organização
+- **Estrutura Modular**: Separação clara entre componentes, constantes, hooks e utilidades.
+- **Clean Code**: Organização de pastas intuitiva que facilita manutenção e escalabilidade.
 
-- Foi utilizado algumas animações do proprio tailwindcss e outras animações 100% customizadas.
-- Animação de marquee onde os textos se movem de um lado para o outro.
-- Animação de fade in e fade out em diversos elementos.
-- Animação de pulse.
+#### Animações Customizadas
+- **Marquee Effect**: Textos deslizantes com movimento contínuo e suave.
+- **Fade In/Out**: Transições elegantes em diversos elementos da página.
+- **Pulse Animation**: Efeitos pulsantes para destacar elementos importantes.
+- **Particle System**: Sistema de partículas com movimento aleatório e orgânico.
 
-### Design
+### Componentes Interativos
+- **Navbar Inteligente**: 
+  - Responsiva com menu hamburger em mobile.  
+  - Background dinâmico ativado no scroll.
+  - Transições suaves entre estados.
+- **Timeline de Experiências**: Componente visual para apresentar trajetória profissional de forma cronológica.
+- **Carrossel de Depoimentos**: Sistema de navegação fluida para exibir testimonials.
+- **Formulário de Contato**: Interface integrada para comunicação direta via email.
 
-- O design do portfólio foi desenvolvido utilizando as melhores práticas de design web.
-- O design do portfólio é responsivo e funciona em diferentes tamanhos de tela.
-- Padronização de cores, fontes e espaçamentos.
+### Design System
+- **Padronização Completa**: Cores, tipografia e espaçamentos consistentes.
+- **Responsividade Total**: Layout adaptável para mobile, tablet e desktop.
+- **Acessibilidade**: Desenvolvido seguindo boas práticas de acessibilidade web.
 
-### Navbar
+## Estrutura Visual
 
-- A navbar é responsiva e funciona em diferentes tamanhos de tela.
-- Possui um efeito de adicionar background quando o usuário rola a página.
+O portfólio está dividido em seções estratégicas:
 
-### Hero
+- **Hero**: Apresentação impactante com animações de entrada
+- **Sobre**: Introdução profissional e habilidades
+- **Experiência**: Timeline com histórico de carreira
+- **Projetos**: Showcase de trabalhos realizados
 
-- Possui uma animação de partículas que se movem de um lado para o outro de forma aleatória.
+## Como executar
 
-### Experiência
+Execute esses passos no seu terminal:
 
-- Na sessão de experiência foi utilizado o componente para simular uma timeline.
+```shell
+# Clone o repositório
+git clone https://github.com/paulopbi/react-tailwind-portfolio
 
-### Testemunhos
+# Entre na pasta
+cd react-tailwind-portfolio
 
-- Em testimonials foi utilizado o componente de carrossel para exibir os depoimentos.
+# Instale as dependências
+bun install
 
-### Contatos
+# Execute o projeto localmente
+bun run dev
+```
 
-- Em contatos foi utilizado um formulário para qualquer usuário entrar em contato por email.
+## Licença 
+
+Este projeto está sob a licença MIT, veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
